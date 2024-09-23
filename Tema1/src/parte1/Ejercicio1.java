@@ -13,8 +13,7 @@ public class Ejercicio1 {
 		double numero = reader.nextDouble();
 		//Escribe el numero que el usuario a introducido
 		System.out.println("Has escrito el numero: " + numero);
-		reader.close();
-		
+		reader.close();	
 
 	}
 
