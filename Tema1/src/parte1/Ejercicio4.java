@@ -17,7 +17,7 @@ public class Ejercicio4 {
 		//Introduce una nota mediante la console
 		double nota2 = reader.nextDouble();
 		
-		//Escribe la mediade notas que el usuario a introducido
+		//Calcula la mediade notas que el usuario a introducido
 		System.out.println("Tienes un " + (  (nota1 + nota2) / 2) +" de media.");
 		reader.close();
 
