@@ -18,7 +18,6 @@ public class Ejercicio2 {
 		//Calcula la edad que vas a cumplir
 		System.out.println("Vas a cumplir: " + (edad + 1));
 		reader.close();
-
 	}
 
 }

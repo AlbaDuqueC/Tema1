@@ -20,7 +20,6 @@ public class Ejercicio5 {
 		System.out.println("La longitud de la circunferenvia es: " + ( 2 * PI * radio));
 		System.out.println("El Area de la circunferenvia es: " + (PI * (radio*radio)));
 		reader.close();	
-
 	}
 
 }
