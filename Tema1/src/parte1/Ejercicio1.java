@@ -14,7 +14,7 @@ public class Ejercicio1 {
 		//Escribe el numero que el usuario a introducido
 		System.out.println("Has escrito el numero: " + numero);
 		reader.close();
-		// TODO Auto-generated method stub
+		
 
 	}
 
