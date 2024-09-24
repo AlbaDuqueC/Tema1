@@ -19,6 +19,8 @@ public class Ejercicio4 {
 		
 		//Calcula la mediade notas que el usuario a introducido
 		System.out.println("Tienes un " + (  (nota1 + nota2) / 2) +" de media.");
+		
+		//Cierra el escane
 		reader.close();
 
 	}
