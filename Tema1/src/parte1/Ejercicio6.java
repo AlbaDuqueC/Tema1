@@ -14,6 +14,7 @@ public class Ejercicio6 {
 				//Introduce una nota mediante la console
 				double num1 = reader.nextDouble();
 				
+				//Intruduce un numero
 				System.out.println("Introduzca un numero");
 				
 				//Introduce un numero mediante la console
@@ -31,7 +32,7 @@ public class Ejercicio6 {
 				//Calcula la división con los dos numeros que el usuario a introducido
 				System.out.println("La división es: " + (num1/num2));
 				
-				//cierra el escane
+				//cierra el escaner
 				reader.close();	
 
 	}

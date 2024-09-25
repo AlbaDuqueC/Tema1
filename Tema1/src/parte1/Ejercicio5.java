@@ -19,6 +19,8 @@ public class Ejercicio5 {
 		//Calcula la longitud y el area con el radio que el usuario a introducido
 		System.out.println("La longitud de la circunferenvia es: " + ( 2 * PI * radio));
 		System.out.println("El Area de la circunferenvia es: " + (PI * (radio*radio)));
+		
+		//cierra el escaner
 		reader.close();	
 
 	}

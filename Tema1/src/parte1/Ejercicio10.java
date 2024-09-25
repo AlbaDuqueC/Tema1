@@ -22,7 +22,7 @@ public class Ejercicio10 {
 				//Escribe si es par (true) o impar (impar) 
 				System.out.println(par);
 				
-				//Cierra el escane
+				//Cierra el escaner
 			    reader.close();
 
 	}

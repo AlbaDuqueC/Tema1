@@ -35,7 +35,7 @@ public class Ejercicio7 {
 		//Escribe el telefono que el usuario a introducido
 		System.out.println("Telefono: " + telefono);
 				
-		//cierra el escane
+		//cierra el escaner
 		reader.close();	
 
 	}

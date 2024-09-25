@@ -23,7 +23,7 @@ public class Ejercicio8 {
 				//Escribe el nombre que el usuario a introducido
 				System.out.println("Hola " + nombre +", tienes " + edad +" añoss, ¡qué mayor eres!");
 				
-				//Cierra el escane
+				//Cierra el escaner
 				reader.close();
 
 	}

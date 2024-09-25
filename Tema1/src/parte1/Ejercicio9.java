@@ -23,7 +23,7 @@ public class Ejercicio9 {
 		//Escribe si eres mayor de edad (true) o no (false) 
 		System.out.println(mayor);
 		
-		//Cierra el escane
+		//Cierra el escaner
 	    reader.close();
 
 	}
