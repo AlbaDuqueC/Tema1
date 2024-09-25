@@ -19,7 +19,7 @@ public class Ejercicio11 {
 		pesetas = reader.nextDouble();
 		
 		//cambio de pesetas a euros
-		double euros = (pesetas/166);
+		euros = (pesetas/166);
 		
 		//Escribe la cifra
 		System.out.println("Serian "+euros+" euros.");

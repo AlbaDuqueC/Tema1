@@ -9,23 +9,26 @@ public class Ejercicio14 {
 		int nota1;
 		int nota2;
 		int nota3;
-		int mediaentera;
-		double expedienteac;
+		double mediaentera;
+		
 		
 		//Crea un scanner
 		Scanner reader= new Scanner(System.in);
 		
-		System.out.println("Introduzcs las notas:");
+		//Te pide las notas
+		System.out.println("Introduzca las notas:");
 		
+		//Introduce las notas
 		nota1= reader.nextInt();
 		nota2= reader.nextInt();
 		nota3= reader.nextInt();
 		
-		mediaentera= (int) ((nota1+nota2+nota3)/3);
-		expedienteac= (double) ((nota1+nota2+nota3)/3);
+		//Calcula la media
+		mediaentera= ((double) (nota1+nota2+nota3))/3;
 		
+		//Te dice la media
+		System.out.println("Boletin:" + (int)mediaentera);
 		System.out.println("Boletin:" + mediaentera);
-		System.out.println("Boletin:" + expedienteac);
 		//cierra el scanner
 		reader.close();
 		
