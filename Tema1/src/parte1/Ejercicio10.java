@@ -5,25 +5,27 @@ import java.util.Scanner;
 public class Ejercicio10 {
 
 	public static void main(String[] args) {
-		        //crea una boolea
-				Boolean par;
-				//Crea el escaner 
-				Scanner reader  = new Scanner(System.in);
+		//crea los valores
+		boolean par;
+		int num;
+	    
+		//Crea el escaner 
+		Scanner reader  = new Scanner(System.in);
 				
-				//Pide al usuario un numero
-				System.out.println("Introduzca un numero:");
+		//Pide al usuario un numero
+		System.out.println("Introduzca un numero:");
 				
-				//Introduce el numero mediante la console
-				int num = reader.nextInt();
+		//Introduce el numero mediante la console
+		num = reader.nextInt();
 				
-				//Si es par 
-				par= (num % 2 ==0);
+		//Si es par 
+		par= (num % 2 ==0);
 				
-				//Escribe si es par (true) o impar (impar) 
-				System.out.println(par);
+		//Escribe si es par (true) o impar (impar) 
+		System.out.println(par);
 				
-				//Cierra el escaner
-			    reader.close();
+		//Cierra el escaner
+		reader.close();
 
 	}
 

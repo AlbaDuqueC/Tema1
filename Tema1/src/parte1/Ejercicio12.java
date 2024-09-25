@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio12 {
 
 	public static void main(String[] args) {
+		//crear los valores
 		double peras;
 		double manzanas;
 		double cuesta;
@@ -24,8 +25,10 @@ public class Ejercicio12 {
 		//Introduce el kilo de manzana mediante la console
 		manzanas = reader.nextDouble();
 		
+		//Calcula el valor 
 		cuesta= (peras*1.95) + (manzanas*2.25);
 		
+		//Te dice cuaanto cuesta
 		System.out.println("El total es "+ cuesta + " euros." );
 		
 		//Cierra el escaner
