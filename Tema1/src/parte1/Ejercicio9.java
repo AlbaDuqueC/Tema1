@@ -7,7 +7,7 @@ public class Ejercicio9 {
 	public static void main(String[] args) {
 		
 		//crea una boolea
-		Boolean mayor;
+		boolean mayor;
 		//Crea el escaner 
 		Scanner reader  = new Scanner(System.in);
 		

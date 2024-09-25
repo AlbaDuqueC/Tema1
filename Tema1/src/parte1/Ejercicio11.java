@@ -19,6 +19,9 @@ public class Ejercicio11 {
 		
 		//Escribe la cifra
 		System.out.println("Serian "+euros+" euros.");
+		
+		//Cierra el escaner
+	    reader.close();
 
 	}
 
