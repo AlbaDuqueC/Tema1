@@ -37,6 +37,9 @@ public class Ejercicio6 {
 				
 				//imprime en pantalla la soluciñón
 				System.out.println("la suma es: " + suma);
+				
+				//cierre del scanner
+				sc.close();
 	}
 
 }
