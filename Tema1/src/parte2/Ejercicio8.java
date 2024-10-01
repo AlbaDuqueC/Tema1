@@ -22,7 +22,7 @@ public class Ejercicio8 {
 		metros= sc.nextDouble();
 		
 		//convertimos los metros a centimetros
-		centimetros= metros*CONVERSION;
+		centimetros=(int) (metros*CONVERSION);
 		
 		//Imprime por pantalla el resultadio
 		System.out.println(centimetros + " cm");
