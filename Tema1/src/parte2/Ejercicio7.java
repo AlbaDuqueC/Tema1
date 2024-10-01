@@ -40,6 +40,7 @@ public class Ejercicio7 {
 		//Se imprime el precio total
 		System.out.println(result + " euros");
 		
+		//cerramos el scanner
 		sc.close();
 
 	}
