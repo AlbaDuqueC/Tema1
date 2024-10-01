@@ -18,19 +18,19 @@ public class Ejercicio6 {
 				System.out.println("Introduzca una medida en milimetros");                                  
 				                                                                             
 				//introducir el numero                                                       
-				milimetros= sc.nextInt();
+				milimetros= sc.nextDouble();
 				
 				//Pide que introduzcas una medida                                             
 				System.out.println("Introduzca una medida en centimetros");                                  
 				                                                                             
 				//introducir el numero                                                       
-				centimetros= sc.nextInt();
+				centimetros= sc.nextDouble();
 				
 				//Pide que introduzcas una medida                                             
 				System.out.println("Introduzca una medida en metros");                                  
 				                                                                             
 				//introducir el numero                                                       
-				metros= sc.nextInt();
+				metros= sc.nextDouble();
 				
 				//Calcular la suma de los tres datos
 				suma= (milimetros/10) + (metros*100) + centimetros ;
