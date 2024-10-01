@@ -10,7 +10,7 @@ public class Ejercicio8 {
 		double metros;
 		
 		//Declaramos la constante
-		final double CONVERSION= 1000;
+		final double CONVERSION= 100;
 		
 		//crea el scanner                                                            
 		Scanner sc= new Scanner(System.in);                                      
